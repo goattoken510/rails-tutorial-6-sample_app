@@ -72,8 +72,8 @@ Rails.application.configure do
     :addres => 'smtp.sendgrid.net',
     :port => '587',
     :authentication => :plain,
-    :user_name => ENV['SENDGRID_USERNAME'],
-    :password => ENV['SENDGRID_PASSWORD'],
+    :user_name => ENV['app184557987@heroku.com'],
+    :password => ENV['7vzfe7mj3826'],
     :domain => 'heroku.com',
     :enable_starttls_auto => true
   }
